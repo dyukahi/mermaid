@@ -36,6 +36,11 @@ const scssRule = {
 export const jsConfig = () => {
   return {
     mode: 'development',
+    performance: {
+        hints: false,
+        maxEntrypointSize: 512000,
+        maxAssetSize: 512000
+    },
     target: 'web',
     entry: {
       mermaid: './src/mermaid.js'
