@@ -58,6 +58,6 @@ export const jsConfig = () => {
       rules: [amdRule, jsRule, scssRule, jisonRule]
     },
     // plugins: [new BundleAnalyzerPlugin()],
-    devtool: 'source-map'
+    devtool: false
   };
 };
